@@ -1,0 +1,106 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            
+                           
+                            
+                            <p align=left >{{ post.description }}</p>
+                            <img src="img/portfolio/{{ post.img2 }}" class="img-responsive img-centered">
+
+                            <p align=left> {{ post.description2 }}</p>
+                            <img src="img/portfolio/{{ post.img3 }}" class="img-responsive img-centered">
+
+                            <p align=left> {{ post.description3 }}</p>
+                            <img src="img/portfolio/{{ post.img4 }}" class="img-responsive img-centered">
+
+                            <p align=left> {{ post.description4 }}</p>
+                            <img src="img/portfolio/{{ post.img5 }}" class="img-responsive img-centered">
+
+                            <p align=left> {{ post.description5 }}</p>
+                            <img src="img/portfolio/{{ post.img7 }}" class="img-responsive img-centered">
+
+                            <p align=left> {{ post.description6 }}</p
+                            >
+                            <img src="img/portfolio/{{ post.img8 }}" class="img-responsive img-centered">
+
+                            <p align=left> {{ post.description7 }}</p>
+                            
+                            <p align=left> {{ post.description8 }}</p>
+                            
+                            <p align=left> {{ post.description9 }}</p>
+                            
+                            <p align=left> {{ post.description10 }}</p>
+                            
+                            <p align=left> {{ post.description11 }}</p>
+                        
+                            <p align=left> {{ post.description12 }}</p>
+                        
+                            <p align=left> {{ post.description13 }}</p>
+                            
+                            <p align=left> {{ post.description14 }}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             
+
+
+
+
+
+
+
+
+
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
